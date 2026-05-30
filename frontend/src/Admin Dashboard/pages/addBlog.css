@@ -1,0 +1,55 @@
+.ant-input,
+.ant-picker,
+.ant-select-selector,
+.ant-input-affix-wrapper {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: white !important;
+  backdrop-filter: blur(20px);
+}
+
+.ant-input::placeholder,
+.ant-picker-input input::placeholder {
+  color: #94a3b8 !important;
+}
+
+.ant-picker-input input,
+.ant-input {
+  color: white !important;
+}
+
+.ant-select-selection-placeholder {
+  color: #94a3b8 !important;
+}
+
+.ant-select-selection-item {
+  color: white !important;
+}
+
+.ant-form-item-label label {
+  color: white !important;
+  font-weight: 600;
+}
+
+.ant-picker-suffix,
+.ant-select-arrow {
+  color: #facc15 !important;
+}
+
+.ant-input:hover,
+.ant-picker:hover,
+.ant-select-selector:hover {
+  border-color: #facc15 !important;
+}
+
+.ant-input:focus,
+.ant-picker-focused,
+.ant-select-focused .ant-select-selector {
+  border-color: #facc15 !important;
+  box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.15) !important;
+}
+
+.ant-card {
+  background: rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(25px);
+}
